@@ -30,6 +30,10 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "no-unused-expressions": "off",
+    "@typescript-eslint/ban-types": "off",
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
