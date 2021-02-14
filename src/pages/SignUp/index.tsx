@@ -51,7 +51,6 @@ const SignUp: React.FC = () => {
             'Cadastro realizado com sucesso, você ja pode fazer o logon do GoBarber',
         });
       } catch (err) {
-        console.log(err.response);
         if (err instanceof Yup.ValidationError) {
           const erros = getValidationErros(err);
           formRef.current?.setErrors(erros);
